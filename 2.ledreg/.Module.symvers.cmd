@@ -1,0 +1,1 @@
+cmd_/home/linux-orangepi/mylinux-driver/2.ledreg/Module.symvers := sed 's/\.ko$$/\.o/' /home/linux-orangepi/mylinux-driver/2.ledreg/modules.order | scripts/mod/modpost -m -a   -o /home/linux-orangepi/mylinux-driver/2.ledreg/Module.symvers -e -i Module.symvers   -T -

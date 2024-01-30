@@ -1,0 +1,1 @@
+cmd_/home/linux-orangepi/mylinux-driver/chrdevbase.ko := ld -r -EL  -maarch64elf --build-id=sha1  -T scripts/module.lds -o /home/linux-orangepi/mylinux-driver/chrdevbase.ko /home/linux-orangepi/mylinux-driver/chrdevbase.o /home/linux-orangepi/mylinux-driver/chrdevbase.mod.o;  make -f ./arch/arm64/Makefile.postlink /home/linux-orangepi/mylinux-driver/chrdevbase.ko

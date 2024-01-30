@@ -1,0 +1,1 @@
+cmd_/home/linux-orangepi/mylinux-driver/1.dtsof/modules.order := {   echo /home/linux-orangepi/mylinux-driver/1.dtsof/dtsof.ko; :; } | awk '!x[$$0]++' - > /home/linux-orangepi/mylinux-driver/1.dtsof/modules.order

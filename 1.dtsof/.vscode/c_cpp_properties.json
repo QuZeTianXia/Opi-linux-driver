@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/linux-orangepi/include", 
+                "/home/linux-orangepi/arch/arm/include", 
+                "/home/linux-orangepi/arch/arm64/include",
+                "/home/linux-orangepi/arch/arm64/include/generated"
+ //               "/usr/arm-linux-gnueabihf/include/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+ //           "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

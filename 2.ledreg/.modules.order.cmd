@@ -1,0 +1,1 @@
+cmd_/home/linux-orangepi/mylinux-driver/2.ledreg/modules.order := {   echo /home/linux-orangepi/mylinux-driver/2.ledreg/ledreg.ko; :; } | awk '!x[$$0]++' - > /home/linux-orangepi/mylinux-driver/2.ledreg/modules.order

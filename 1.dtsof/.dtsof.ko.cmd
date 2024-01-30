@@ -1,0 +1,1 @@
+cmd_/home/linux-orangepi/mylinux-driver/1.dtsof/dtsof.ko := ld -r -EL  -maarch64elf --build-id=sha1  -T scripts/module.lds -o /home/linux-orangepi/mylinux-driver/1.dtsof/dtsof.ko /home/linux-orangepi/mylinux-driver/1.dtsof/dtsof.o /home/linux-orangepi/mylinux-driver/1.dtsof/dtsof.mod.o;  make -f ./arch/arm64/Makefile.postlink /home/linux-orangepi/mylinux-driver/1.dtsof/dtsof.ko
